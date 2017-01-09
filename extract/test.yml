@@ -1,0 +1,23 @@
+title: Example Map
+view:
+  baselayer: osm
+  latitude: 41.8667
+  longitude: 12.4920
+  maxZoom: 18
+  minZoom: 0
+  zoom: 11
+  controls: []
+controls:
+  attribution: true
+  legend: false
+  zoom: true
+baselayers:
+  - id: osm
+    title: OpenStreetMap
+    type: tiles
+    description: OpenStreetMap Basemap, Standard Style
+    source:
+      name: OpenStreetMap
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    tile:
+      url: https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png
